@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Silkscreen&display=swap" rel="stylesheet">
+    <title>WEBSITE PROFIL</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo1.svg" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="#jasa">Jasa</a></li>
+                <li><a href="mailto:adityamaulana669@gmail.com">Kontak</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+
+    <!-- ISI -->
+    <section>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello, I Adit</p>
+                <p class="description">I am a Programmer</p>
+                <img src="assets/adit.jpg" alt="foto adit" class="img-foto" />
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax">
+        <div class="tentang">
+            <p class="description">Ngoding aja dulu, jagonya belakangan</p>
+            <div class="btn">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-item" id="jasa">
+                    <img src="assets/24-hours.png" alt="icon 1" class="icon">
+                    <p class="card-title">Pelayanan 24/7</p>
+                    <p class="card-description">Service 24 jam nonstop</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/hot-deal.png" alt="icon 1" class="icon">
+                    <p class="card-title">Harga Dijamin Murah!</p>
+                    <p class="card-description">Kualitas Bersaing Dengan yang Lain</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/rating.png" alt="icon 1" class="icon">
+                    <p class="card-title">700 Review</p>
+                    <p class="card-description">Client saya merasa puas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2023 AditMaul.com</p>
+    </footer>
+
+
+
+
+    <script>
+        function redirInstagram(){
+            window.location.href = "https://instagram.com/aditmaul_13"
+        }
+        function redirWhatsapp(){
+            window.location.href = "https://wa.me/6285156704642"
+        }
+    </script>
+</body>
+
+</html>
